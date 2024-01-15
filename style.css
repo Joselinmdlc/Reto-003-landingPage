@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(fondomorado.jpeg);
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  
+}
+.business-text h1{
+ font-size: 65px;
+}
+.btn {
+  background: linear-gradient to right rgba(56, 9, 78, 0.813), rgba(6, 21, 67, 0.934);
+  border-radius: 100px;
+  font-size: 10px;
+}
+.btn h2 {
+  color: white;
+  font-size: 14px;
+}
+.card-top-pestaña {
+  width: 50px;
+  height: 60px;
+  background-color: rgb(144 24 200 / 81%);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin-left: 40px;
+}
+.text-resumen h4 {
+  font-size: 24px;
+  color: #111729;
+  margin: 5px;
+
+}
+.card {
+  display:flex;
+  flex-direction: row;
+  width: 1240px;
+    height: 1000px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+
+}
+.side-left{
+  height: 46%;
+  width: 30%;
+  margin: 25px;
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  
+  
+}
+.side-right {
+  height: 60%;
+  width: 60%;
+  align-items: baseline;
+  flex-direction: column;
+  
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  justify-content: space-evenly;
+}
+
+.image {
+    max-width: 90%;
+    
+}
+.text-resumen {
+  color: #677489;
+}
